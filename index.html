@@ -1,0 +1,65 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <main>
+        <section class="choosing">
+            <section class="beRows">
+                <label for="birthMonth">Birth month:</label>
+                <input list="birthMonthsList" id="birthMonth" name="birthMonth">
+
+                <datalist id="birthMonthsList">
+                    <option value="January">
+                    <option value="February">
+                    <option value="March">
+                    <option value="April">
+                    <option value="May">
+                    <option value="June">
+                    <option value="July">
+                    <option value="August">
+                    <option value="September">
+                    <option value="October">
+                    <option value="November">
+                    <option value="December">	
+                </datalist>
+            </section>
+            <section class="beRows">            
+                <label for="birthDay">Birth day:</label>
+                <input type="number" id="birthDay" name="birthDay" required min="1" max="31">
+            </section>
+            <section>
+                <button type="button" id="showSign">Exercises for my star sign</button>
+                <button type="reset" id="reset">Reset</button>
+            </section>
+        </section>
+        <section class="results">
+            <p id="result"></p>
+            
+            <p class="exercise" id="ariesExercise">Deadlifts</p>
+            <p class="exercise" id="taurusExercise">Medicine Ball Slams</p>
+            <p class="exercise" id="geminiExercise">Swing Squats</p>
+            <p class="exercise" id="cancerExercise">Walking</p>
+            <p class="exercise" id="leoExercise">Plyometrics</p>
+            <p class="exercise" id="virgoExercise">Speed Skating</p>
+            <p class="exercise" id="libraExercise">Split Squats</p>
+            <p class="exercise" id="scorpioExercise">Boxing</p>
+            <p class="exercise" id="sagittariusExercise">Turkish Get-Up</p>
+            <p class="exercise" id="capricornExercise">Running</p>
+            <p class="exercise" id="aquariusExercise">Swimming</p>
+            <p class="exercise" id="piscesExercise">Tai Chi</p>
+            
+            <img class="exercise" id="shia" src="https://media1.tenor.com/images/7cd63e804a14789acef74bc1918f7a08/tenor.gif">
+        </section>
+    </main>
+    <script src="horoscope.js"></script>
+</body>
+</html>
+    

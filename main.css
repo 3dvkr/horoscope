@@ -1,0 +1,35 @@
+* {border:none;}
+input {border-bottom: 2px solid black;}
+
+body {width: 100vw; height: 100vh;}
+
+main {
+    margin: 2rem;
+    min-height: 50%;
+}
+
+.choosing {height: 50%;}
+.choosing > * {padding: 1.5rem;}
+
+.exercise {
+    display:none;
+}
+
+section {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+	justify-content: space-between center;
+    align-content:  center;
+}
+
+.beRows {flex-direction: row; justify-content: center;}
+button, label {margin: .5rem;}
+button {padding: 1rem;}
+input {width: 30%;}
+
+.showExercise, #result {
+    display: block;
+    text-align: center;
+    font-size: larger;
+}
